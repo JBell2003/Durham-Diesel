@@ -77,13 +77,14 @@ nav ul li a:hover {
     position: relative;
     color: var(--white);
     padding: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .hero h2 {
@@ -92,11 +93,12 @@ nav ul li a:hover {
     font-weight: 600;
     -webkit-text-stroke: 1px white;
     text-stroke: 1px white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .hero p {
     font-size: 1.2rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .cta-button {
