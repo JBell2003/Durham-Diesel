@@ -90,6 +90,8 @@ nav ul li a:hover {
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: 600;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
 }
 
 .hero p {
