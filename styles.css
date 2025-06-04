@@ -70,23 +70,31 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .hero-content {
     position: relative;
     color: var(--white);
     padding: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 .hero h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 .cta-button {
@@ -131,6 +139,19 @@ section h2 {
     font-size: 1.1rem;
 }
 
+.about-image {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
 /* Reviews Section */
 .reviews {
     background-color: var(--white);
@@ -148,6 +169,13 @@ section h2 {
     color: #f1c40f;
     font-size: 2rem;
     margin: 0 0.2rem;
+}
+
+.rating-text {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+    font-weight: 600;
 }
 
 .review-button {
@@ -219,6 +247,21 @@ section h2 {
 .contact-info i {
     margin-right: 0.5rem;
     color: var(--primary-color);
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--secondary-color);
+}
+
+.indent {
+    padding-left: 1.8rem;
+    color: var(--text-color);
 }
 
 .map {
